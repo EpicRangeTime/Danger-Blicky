@@ -1,0 +1,13 @@
+{
+    "manifest": [
+        {
+            "key": "blicky_quarter.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "tarkov_custom_shaders.bundle"
+            ]
+        }
+    ]
+}
