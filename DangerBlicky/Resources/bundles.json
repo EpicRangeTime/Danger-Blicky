@@ -6,7 +6,7 @@
                 "shaders",
                 "cubemaps",
                 "assets/commonassets/physics/physicsmaterials.bundle",
-                "tarkov_custom_shaders.bundle"
+                "epic_shaders.bundle"
             ]
         }
     ]

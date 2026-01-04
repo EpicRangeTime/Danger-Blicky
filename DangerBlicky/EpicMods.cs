@@ -10,14 +10,14 @@ public record ModMetadata : AbstractModMetadata
 {
     public override string ModGuid { get; init; } = "com.epicrangetime.blicky";
     public override string Name { get; init; } = "Danger Blicky";
-    public override string Author { get; init; } = "GrooveypenguinX, EpicRangeTime";
+    public override string Author { get; init; } = "EpicRangeTime";
     public override List<string>? Contributors { get; init; } = null;
     public override SemanticVersioning.Version Version { get; init; } = new(typeof(ModMetadata).Assembly.GetName().Version?.ToString(3));
-    public override Range SptVersion { get; init; } = new("~4.0.3");
+    public override Range SptVersion { get; init; } = new("~1.0.0");
     public override List<string>? Incompatibilities { get; init; }
     public override Dictionary<string, Range>? ModDependencies { get; init; } = new()
     {
-        { "com.wtt.commonlib", new Range("~2.0.9") }
+        { "com.wtt.commonlib", new Range("~2.0.11") }
     };
     public override string? Url { get; init; }
     public override bool? IsBundleMod { get; init; } = true;
